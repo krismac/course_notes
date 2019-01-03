@@ -1,0 +1,19 @@
+{
+  "name": "primechecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "mocha src/specs",
+    "build": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "webpack": "^4.17.3",
+    "webpack-cli": "^3.1.0"
+  }
+}

@@ -1,0 +1,33 @@
+<form method="POST" action="/pizza-orders">
+  <label for="first-name-field">First name</label>
+  <input
+    type="text"
+    name="first_name"
+    id="first-name-field"
+  />
+
+  <label for="last-name-field">Last name</label>
+  <input
+    type="text"
+    name="last_name"
+    id="last-name-field"
+  />
+
+  <label for="quantity-field">Quantity</label>
+  <input
+    id="quantity-field"
+    type="number"
+    name="quantity"
+    min="1"
+    max="100"
+  />
+
+  <label for="topping-select">Choose your toppings</label>
+  <select name="topping" id="topping-select">
+    <option value="margherita">Margherita</option>
+    <option value="pepperoni">Pepperoni</option>
+  </select>
+
+  <input type="submit" value="Order Pizza"/>
+
+</form>

@@ -1,0 +1,16 @@
+{
+  "name": "continents_of_the_world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^2.1.5"
+  }
+}

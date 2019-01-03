@@ -1,0 +1,20 @@
+img.medium-image {
+  width: 30vw;
+  min-width: 293px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section.planet-details {
+  grid-column-start: 2;
+  color: honeydew;
+  background-color: black;
+  padding: 1rem;
+}
+
+section.planet-details li {
+  padding: 0.175rem;
+}

@@ -1,0 +1,8 @@
+label::after {
+  content: ':';
+}
+
+body {
+  background-color: lightsteelblue;
+  font-family: helvetica;
+}

@@ -1,0 +1,38 @@
+<h2>Edit <%= @student.format_name %></h2>
+<form method="POST" action="/students/<%= @student.id %>">
+  <div class="form-wrapper">
+    
+    <div class="form-el">
+      <label for="first_name">First Name:</label>
+      <input type="text" name="first_name" id="first_name" value="<%= @student.first_name %>"/>
+    </div>
+
+    <div class="form-el">
+      <label for="last_name">Last Name:</label>
+      <input type="text" name="last_name" id="last_name" value="<%= @student.last_name%>"/>
+    </div>
+
+    <div class="form-el">
+      <label for="house_select">Select House:</label> 
+      <select name="house_id" id="house_select" selected="<%= @student.house_id  %>">
+        <% @houses.each do |house| %>
+          <% if house.id == @student.house_id %>
+            <option value=<%= house.id %> selected><%= house.name.capitalize %></option>
+          <% else %>
+            <option value=<%= house.id %>><%= house.name.capitalize %></option>
+          <% end %>
+        <% end %>
+      </select>
+    </div>
+
+    <div class="form-el">
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age" value="<%= @student.age %>"/>
+    </div>
+
+    <div class="form-el">
+      <input type="submit" value="Enrol Student"/>
+    </div>
+
+  </div>
+</form>

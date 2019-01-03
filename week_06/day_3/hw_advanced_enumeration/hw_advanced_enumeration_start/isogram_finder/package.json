@@ -1,0 +1,14 @@
+{
+  "name": "isogram_finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "isogram_finder.js",
+  "scripts": {
+    "test": "mocha isogram_finder_spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.0.1"
+  }
+}

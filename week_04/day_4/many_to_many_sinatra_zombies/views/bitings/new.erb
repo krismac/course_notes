@@ -1,0 +1,23 @@
+<h1>Bitey bitey!</h1>
+
+<form action="/bitings" method="post">
+  <label>
+  Select a zombie:
+    <select name="zombie_id">
+      <% for zombie in @zombies %>
+      <option value="<%= zombie.id %>"><%= zombie.name %></option>
+      <% end %>
+    </select>
+  </label>
+  
+  <label>
+    Select a victim:
+    <select name="victim_id">
+      <% for victim in @victims %>
+      <option value="<%= victim.id %>"><%= victim.name %></option>
+      <% end %>
+    </select>
+  </label>
+  
+  <input class="btn btn--action" type='submit' value="Bite!">
+</form>

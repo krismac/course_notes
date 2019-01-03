@@ -1,0 +1,17 @@
+{
+  "name": "example_app_fastest_animals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inheritance_start_point.iml" filepath="$PROJECT_DIR$/.idea/modules/inheritance_start_point.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inheritance_start_point_main.iml" filepath="$PROJECT_DIR$/.idea/modules/inheritance_start_point_main.iml" group="inheritance_start_point" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inheritance_start_point_test.iml" filepath="$PROJECT_DIR$/.idea/modules/inheritance_start_point_test.iml" group="inheritance_start_point" />
+    </modules>
+  </component>
+</project>

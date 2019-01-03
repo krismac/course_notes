@@ -1,0 +1,13 @@
+body {
+  font-family: Courier;
+  color: #fff;
+  background-color: #000;
+}
+
+h1 {
+  text-align: center;
+}
+
+#coin-info {
+  text-align: center;
+}

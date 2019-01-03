@@ -1,0 +1,13 @@
+<h2>Students</h2>
+
+<div id="student-wrapper">
+  <% @students.each do |student| %>
+
+  <div class="student">
+    <h3><a href="/students/<%= student.id %>"><%= student.format_name %></a></h3>
+    <p>Age: <%= student.age %></p>
+    <p>House: <%= student.house.name.capitalize %></p>
+  </div>
+
+  <% end %>
+</div>

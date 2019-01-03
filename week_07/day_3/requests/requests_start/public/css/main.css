@@ -1,0 +1,14 @@
+#joke-container {
+  width: 66%;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#joke-container p {
+  font-family: monospace;
+  font-size: 2em;
+}

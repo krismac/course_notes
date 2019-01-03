@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bird Sightings</title>
+    <script src="/js/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <h1>Bird Sightings</h1>
+    <div class="wrapper">
+      <div>
+        <h2>Add a Sighting</h2>
+        <form id="sightings-form">
+          <div>
+            <label for="species">Species:</label>
+            <input type="text" id="species"/>
+          </div>
+          <div>
+            <label for="location">Location:</label>
+            <input type="text" id="location"/>
+          </div>
+          <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date"/>
+          </div>
+
+          <input type="submit" value="Save" id="save"/>
+        </form>
+      </div>
+      <div>
+        <h2>Sightings</h2>
+        <div id="sightings"></div>
+      </div>
+    </div>
+  </body>
+</html>

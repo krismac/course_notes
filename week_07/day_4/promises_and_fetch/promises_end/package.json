@@ -1,0 +1,17 @@
+{
+  "name": "promises_end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+  }
+}

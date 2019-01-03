@@ -1,0 +1,30 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label::after {
+  content: ':';
+}
+
+ul#bucket-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li.bucket-list-item {
+  padding: 0.25em;
+}
+
+li.bucket-list-item.completed {
+  text-decoration-line: line-through;
+  text-decoration-color: #00b300;
+}
+
+button.delete {
+  border: none;
+  width: 12px;
+  height: 16px;
+  background: url(/imgs/delete.png) no-repeat;
+  background-size: 12px;
+  margin-right: 5px;
+}

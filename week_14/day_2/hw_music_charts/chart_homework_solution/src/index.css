@@ -1,0 +1,57 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 4em;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  color: #31698a;
+}
+
+h3 {
+  margin: 5px;
+  color: #333;
+}
+
+h4 {
+  margin: 5px;
+  color: grey;
+}
+
+select {
+  margin: 0 auto 20px auto;
+  display: block;
+  font-size: 20px;
+}
+
+.details, img {
+  display: inline-block;
+}
+
+.details {
+  max-width: 70%;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+.audio-control {
+  opacity: 0.5;
+  margin-right: 10px;
+  width: 60px;
+}
+
+.playing {
+  opacity: 0.8
+}
+
+.song {
+  border-bottom: 1px solid #999;
+  width: 75%;
+  margin: 0 auto 20px auto;
+  padding-bottom: 20px;
+}

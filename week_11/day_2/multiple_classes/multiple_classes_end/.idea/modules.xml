@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mulitple_classes_end.iml" filepath="$PROJECT_DIR$/.idea/modules/mulitple_classes_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mulitple_classes_end_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mulitple_classes_end_main.iml" group="mulitple_classes_end" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mulitple_classes_end_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mulitple_classes_end_test.iml" group="mulitple_classes_end" />
+    </modules>
+  </component>
+</project>

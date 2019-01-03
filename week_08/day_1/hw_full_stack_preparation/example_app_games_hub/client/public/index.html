@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Games</title>
+    <script src="/js/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Skranji|Source+Serif+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <h1>Games Hub</h1>
+    <h3>Add a Game</h3>
+    <form id="games-form">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name"/>
+
+        <label for="playingTime">Playing Time:</label>
+        <input type="number" id="playingTime"/>
+
+        <label for="minNumPlayers">Min Players:</label>
+        <input type="number" id="minNumPlayers"/>
+
+        <label for="maxNumPlayers">Max Players:</label>
+        <input type="number" id="maxNumPlayers"/>
+
+      <input type="submit" value="Save" id="save"/>
+    </form>
+
+    <h2>Games</h2>
+    <div id="games"></div>
+  </body>
+</html>

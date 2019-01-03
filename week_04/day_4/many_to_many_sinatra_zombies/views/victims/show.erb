@@ -1,0 +1,11 @@
+<h1><%= @victim.name %> (victim)</h1>
+
+<p>Running Speed: <%= @victim.run_speed %></p>
+
+<h3>Bitten by:</h3>
+
+<ul>
+  <% @victim.zombies.each do |zombie| %>
+  <li><%= zombie.name %></li>
+  <% end %>
+</ul>

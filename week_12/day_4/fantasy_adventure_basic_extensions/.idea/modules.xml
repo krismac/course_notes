@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fantasy_adventure_basic_solution.iml" filepath="$PROJECT_DIR$/.idea/modules/fantasy_adventure_basic_solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fantasy_adventure_basic_solution_main.iml" filepath="$PROJECT_DIR$/.idea/modules/fantasy_adventure_basic_solution_main.iml" group="fantasy_adventure_basic_solution" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fantasy_adventure_basic_solution_test.iml" filepath="$PROJECT_DIR$/.idea/modules/fantasy_adventure_basic_solution_test.iml" group="fantasy_adventure_basic_solution" />
+    </modules>
+  </component>
+</project>

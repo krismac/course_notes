@@ -1,0 +1,16 @@
+<h1>Victims</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th>Speed</th>
+  </tr>
+  <% for victim in @victims %>
+  <tr>
+    <td><a href="/victims/<%= victim.id %>"><%= victim.name %></a></td>
+    <td>|</td>
+    <td><%= victim.run_speed %></td>
+  </tr>
+  <% end %>
+</table>

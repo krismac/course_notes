@@ -1,0 +1,16 @@
+<h1>Zombies</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th>Type</th>
+  </tr>
+  <% for zombie in @zombies %>
+  <tr>
+    <td><a href="/zombies/<%= zombie.id %>"><%= zombie.name %></a></td>
+    <td>|</td>
+    <td><%= zombie.type %></td>
+  </tr>
+  <% end %>
+</table>

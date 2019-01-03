@@ -1,0 +1,34 @@
+<h2>Enrol Student</h2>
+<form method="POST" action="/students">
+  <div class="form-wrapper">
+    
+    <div class="form-el">
+      <label for="first_name">First Name:</label>
+      <input type="text" name="first_name" id="first_name"/>
+    </div>
+
+    <div class="form-el">
+      <label for="last_name">Last Name:</label>
+      <input type="text" name="last_name" id="last_name"/>
+    </div>
+
+    <div class="form-el">
+      <label for="house_select">Select House:</label> 
+      <select name="house_id" id="house_select">
+        <% @houses.each do |house| %>
+            <option value=<%= house.id %>><%= house.name.capitalize %></option>
+        <% end %>
+      </select>
+    </div>
+
+    <div class="form-el">
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age"/>
+    </div>
+
+    <div class="form-el">
+      <input type="submit" value="Enrol Student"/>
+    </div>
+
+  </div>
+</form>

@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  font-family: Verdana;
+}
+
+p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+a {
+  color: tomato;
+}

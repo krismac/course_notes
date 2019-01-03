@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InterfacesStartPoint.iml" filepath="$PROJECT_DIR$/.idea/modules/InterfacesStartPoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InterfacesStartPoint_main.iml" filepath="$PROJECT_DIR$/.idea/modules/InterfacesStartPoint_main.iml" group="InterfacesStartPoint" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InterfacesStartPoint_test.iml" filepath="$PROJECT_DIR$/.idea/modules/InterfacesStartPoint_test.iml" group="InterfacesStartPoint" />
+    </modules>
+  </component>
+</project>

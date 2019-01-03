@@ -1,0 +1,42 @@
+h1,h2 {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color: white
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+table td {
+  border: 5px solid white;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 80px;
+}
+
+.gridCell {
+  background-color: #000000;
+  border: none;
+  height: 80px;
+  width: 80px;
+  vertical-align: center;
+}
+
+.newGameBtn {
+  margin: 0 auto;
+  display: block;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}

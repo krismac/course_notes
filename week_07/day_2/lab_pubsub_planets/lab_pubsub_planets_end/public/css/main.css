@@ -1,0 +1,17 @@
+header.title-bar {
+  text-align: center;
+  background-color: #dddfd4;
+}
+h1.page-title {
+  margin: 0;
+  padding: 1rem 0;
+  color: #173e43;
+}
+body {
+  margin: 0;
+}
+
+main.main-grid-container {
+  display: grid;
+  grid-template-columns: 67px auto;
+}

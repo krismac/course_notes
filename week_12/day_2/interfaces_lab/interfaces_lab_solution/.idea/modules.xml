@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InterfacesLabSolution.iml" filepath="$PROJECT_DIR$/.idea/modules/InterfacesLabSolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InterfacesLabSolution_main.iml" filepath="$PROJECT_DIR$/.idea/modules/InterfacesLabSolution_main.iml" group="InterfacesLabSolution" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InterfacesLabSolution_test.iml" filepath="$PROJECT_DIR$/.idea/modules/InterfacesLabSolution_test.iml" group="InterfacesLabSolution" />
+    </modules>
+  </component>
+</project>

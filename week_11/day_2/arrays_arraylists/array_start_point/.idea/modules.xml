@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Array_and_ArrayLists_start.iml" filepath="$PROJECT_DIR$/.idea/modules/Array_and_ArrayLists_start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Array_and_ArrayLists_start_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Array_and_ArrayLists_start_main.iml" group="Array_and_ArrayLists_start" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Array_and_ArrayLists_start_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Array_and_ArrayLists_start_test.iml" group="Array_and_ArrayLists_start" />
+    </modules>
+  </component>
+</project>

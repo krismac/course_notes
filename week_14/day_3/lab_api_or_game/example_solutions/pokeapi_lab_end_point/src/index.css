@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Pokemon;
+  src: url(./font/Pokemon_GB.ttf);
+}
+
+body {
+  font-family: Pokemon, sans-serif;
+  text-align: center;
+  background-color: #E0082B;
+}
+
+label {
+  font-size: 1.25em;
+}
+
+select {
+  font-size: 1.25em;
+}
+
+.pokedex-container {
+  margin: auto;
+  display: inline-block;
+}
+
+.pokedex {
+  padding: 20px;
+  background-color: #d0d0d0;
+  border: 30px solid #505050;
+  border-radius: 15px;
+}
+
+.pokemon-detail p {
+  max-width: 450px;
+}
+
+.pokemon-detail h4 {
+  font-style: bold;
+}
+
+.pokemon-image,
+.pokemon-title,
+.pokemon-type,
+.generation-select,
+.pokemon-select  {
+  border: 3px dotted black;
+  padding: 4px;
+}
+
+.generation-select {
+  margin-bottom: 0.5em;
+}
+
+.pokemon-type {
+  padding: 0.5em;
+}

@@ -1,0 +1,40 @@
+body {
+  font-family: Palatino;
+}
+
+#form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-item {
+  margin-right: 1.8rem;
+}
+
+label.primary {
+  display: block;
+  margin: 0.4em 0;
+}
+
+label::after {
+  content: ":";
+}
+
+button, input[type="submit"] {
+  margin-top: 1rem;
+}
+
+#reading-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.reading-list-item {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #20437c;
+  border-radius: 5%;
+  background: #ddeaff;
+}

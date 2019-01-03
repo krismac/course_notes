@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InheritanceTaskSolution.iml" filepath="$PROJECT_DIR$/.idea/modules/InheritanceTaskSolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InheritanceTaskSolution_main.iml" filepath="$PROJECT_DIR$/.idea/modules/InheritanceTaskSolution_main.iml" group="InheritanceTaskSolution" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InheritanceTaskSolution_test.iml" filepath="$PROJECT_DIR$/.idea/modules/InheritanceTaskSolution_test.iml" group="InheritanceTaskSolution" />
+    </modules>
+  </component>
+</project>

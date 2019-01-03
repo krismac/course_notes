@@ -1,0 +1,18 @@
+<h1>Bitings</h1>
+
+<p class="btn--wrapper">
+  <a class="btn btn--action" href="/bitings/new">New attack!</a>
+</p>
+
+<ul>
+  <% for biting in @bitings %>
+  <li>
+  <p><%= biting.zombie.name %> <%= @actions.sample %> <%= biting.victim.name %> </p>
+    <p>
+      <form action="/bitings/<%= biting.id %>/delete" method="POST">
+        <input class="btn btn--danger" type="submit" value="delete" />
+      </form>
+    </p>
+  </li>
+  <% end %>
+</ul>

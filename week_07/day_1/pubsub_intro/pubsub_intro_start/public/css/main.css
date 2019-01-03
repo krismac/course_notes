@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  background: #e6ecff;
+}
+
+textarea {
+  display: block;
+  margin: 1.5em auto;
+  width: 20em;
+  height: 10em;
+}

@@ -1,0 +1,42 @@
+/* DISPLAY TYPES */
+
+#display-types {
+  font: 22px Helvetica;
+  border: 3px solid grey;
+  padding: 10px;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+#display-types span {
+  color: white;
+  background-color: #981ba2;
+}
+
+#display-types button {
+  height: 48px;
+  font-size: 18px;
+  width: 150px;
+  padding: 17px;
+}
+
+/* MOVING BLOCKS */
+
+#blocks div {
+  text-align: center;
+  font: 30px Helvetica;
+  color: white;
+  padding: 10px;
+}
+
+.red {
+  background-color: #d9534f;
+}
+
+.blue {
+  background-color: #428bca;
+}
+
+.green {
+  background-color: #5cb85c;
+}

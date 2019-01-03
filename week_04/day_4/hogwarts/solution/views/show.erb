@@ -1,0 +1,7 @@
+<h2><%= @student.format_name %></h2>
+
+<p>House: <%= @student.house.name.capitalize %></p>
+<p>Age: <%= @student.age %></p>
+
+<a href="/students/<%= @student.id %>/edit">Edit</a>
+<form action="/students/<%= @student.id %>/delete" method="POST"><input type="submit" value="Delete"></form>

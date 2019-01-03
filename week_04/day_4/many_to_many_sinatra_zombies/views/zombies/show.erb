@@ -1,0 +1,11 @@
+<h1>Zombie <%= @zombie.name %></h1>
+
+<p>Type: <%= @zombie.type %></p>
+
+<h3>Victims:</h3>
+
+<ul>
+  <% @zombie.victims.each do |victim| %>
+  <li><%= victim.name %></li>
+  <% end %>
+</ul>

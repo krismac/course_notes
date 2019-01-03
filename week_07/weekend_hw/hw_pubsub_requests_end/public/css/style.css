@@ -1,0 +1,20 @@
+body {
+  background-color: #FFFAFA;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  border-bottom: 2px solid #002851;
+}
+
+label {
+  display: block;
+}
+
+select {
+  margin-bottom: 1em;
+}
+
+button {
+  display: inline-block;
+}

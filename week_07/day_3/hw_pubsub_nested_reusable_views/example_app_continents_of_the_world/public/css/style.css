@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  margin: 0;
+  color: #007759;
+  font-family: 'Palatino';
+  background-color: #F4E8C1;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Helvetica';
+  color: #523059;
+}
+
+header {
+  width: 100%;
+  padding: 0 1em;
+  position: fixed;
+  top: 0;
+  background-color: #fffaed;
+  border-bottom: 1px solid #523059;
+}
+
+#continents {
+  margin-top: 90px;
+}
+
+.continent {
+  margin: 0 10px 0 20px;
+}
+
+ul.countries {
+  -webkit-padding-end: 40px;
+}
+
+ul.countries li {
+  margin: 5px;
+  padding: 5px;
+  background-color: #fffaed;
+  display: inline-block;
+}

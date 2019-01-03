@@ -1,0 +1,63 @@
+body {
+  font-family: 'EB Garamond', serif;
+  background: url(../images/birds-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+h1, h2, h3 {
+  font-family: 'Cinzel', serif;
+}
+
+h1 {
+  color: #88ad85;
+  border-bottom: 1px solid #88ad85;
+}
+
+input[type=date], input[type=text] {
+  background-color: #88ad85;
+  border-radius: 3px;
+  padding: 3px;
+  margin: 3px;
+  border-style: none;
+}
+
+input[type=submit] {
+  display: block;
+  border-color: transparent;
+  border-radius: 5px;
+  background-color: #4D6F4A;
+  padding: 4px 10px 6px;
+  margin: 1em 0;
+}
+
+#sightings {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#sighting {
+  background-color: #4D6F4A;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 1px 1px 21px 12px rgba(77,111,74,1);
+}
+
+.delete-btn {
+  width: 20px;
+  height: 20px;
+  background: url(../images/delete.png);
+  background-size: 20px;
+}
+
+button.delete-btn {
+  border: none;
+  padding: 0;
+}
